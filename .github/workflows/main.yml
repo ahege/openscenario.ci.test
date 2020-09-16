@@ -17,5 +17,5 @@ jobs:
       with:
         java-version: 1.8
     - uses: ./checkOscAction
-        with:
-          TARGET_FOLDER: "targetFolder"
+      with:
+        TARGET_FOLDER: "targetFolder"
