@@ -8,8 +8,6 @@ on:
 
 jobs:
   build:
-    env:
-      working-directory: ./targetFolder
     name: Checker Job
     runs-on: ubuntu-latest
     steps:
@@ -18,7 +16,6 @@ jobs:
       uses: actions/setup-java@v1
       with:
         java-version: 1.8
-    - name: Core
-      run: java -jar net.asam.openscenario.v1_0.reader-0.9.0-jar-with-dependencies.jar -i SimpleExample.xosc
-      working-directory: ${{env.working-directory}}
-      
+    - uses: ./checkOscAction
+      with:
+        TARGET_FOLDER: "targetFolder"
