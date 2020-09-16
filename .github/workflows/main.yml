@@ -19,6 +19,6 @@ jobs:
       with:
         java-version: 1.8
     - name: Core
-      run: java -version
+      run: java -jar net.asam.openscenario.v1_0.reader-0.9.0-jar-with-dependencies.jar -i SimpleScenario.xosc
       working-directory: ${{env.working-directory}}
       
