@@ -1,0 +1,21 @@
+name: "OpenSCENARIO checker action"
+description: "Check all openSCENARIO files that are committed and pushed"
+author: "a.hege@rac.de"
+
+inputs:
+  TARGET_FOLDER:
+    description: "Target folder to check"
+    required: true
+    default: "./"
+  OSC_SUFFIX:
+    description: "Open Scenario File suffix"
+    required: false
+    default: "xosc"
+
+runs:
+  using: "docker"
+  image: "Dockerfile"
+
+branding:
+  icon: "mic"
+  color: "purple"
