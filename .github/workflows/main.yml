@@ -14,4 +14,4 @@ jobs:
     - uses: actions/checkout@v2
     - uses: ./checkOscAction
       with:
-        TARGET_FOLDER: "targetFolder"
+        CHECK_FOLDER: "targetFolder"

@@ -3,14 +3,13 @@ description: "Check all openSCENARIO files that are committed and pushed"
 author: "a.hege@rac.de"
 
 inputs:
-  TARGET_FOLDER:
+  CHECK_FOLDER:
     description: "Target folder to check"
     required: true
   OSC_SUFFIX:
     description: "Open Scenario File suffix"
     required: false
     default: "xosc"
-
 runs:
   using: "docker"
   image: "Dockerfile"
