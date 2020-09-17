@@ -6,7 +6,6 @@ inputs:
   TARGET_FOLDER:
     description: "Target folder to check"
     required: true
-    default: "targetFolder"
   OSC_SUFFIX:
     description: "Open Scenario File suffix"
     required: false
