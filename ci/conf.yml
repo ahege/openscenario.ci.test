@@ -15,4 +15,4 @@ parameterMap:
   testUnsignedShort: 2
   testDouble: 2.0
   
-checkerRuleFactoryClassName: net.asam.openscenario.v1_0.test.SimpleTestScenarioCheckerFactory
+checkerRuleFactoryClassName: net.asam.openscenario.checker.ExampleScenarioCheckerFactory
