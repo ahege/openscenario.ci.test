@@ -12,6 +12,8 @@ jobs:
     runs-on: ubuntu-latest
     steps:
     - uses: actions/checkout@v2
+    - name: change permission of checker file
+      run: chmod -x ./ci/net.asam.openscenario.checker.example-0.9.0.jar
     - uses: ./checkOscAction
       with:
         CONF_FILE: ci/conf.yml
