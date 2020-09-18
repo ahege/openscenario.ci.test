@@ -1,3 +1,4 @@
 #!/bin/sh -l
-sh -c "echo Hello world my name is $CHECK_FOLDER"
-java -jar /net.asam.openscenario.v1_0.reader-0.9.0-jar-with-dependencies.jar -d $GITHUB_WORKSPACE/$INPUT_CHECK_FOLDER
+export CLASSPATH=net.asam.openscenario.v1_0.reader-0.9.0-jar-with-dependencies.jar
+export CLASSPATH=$CLASSPATH;$GITHUB_WORKSPACE/$INPUT_CHECKER_JAR_FILE;
+java net.asam.openscenario.v1_0.main.OpenScenarioCiChecker  -conf $GITHUB_WORKSPACE/$INPUT_CONF_FILE -d $GITHUB_WORKSPACE/$INPUT_BASE_DIR
