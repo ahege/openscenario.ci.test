@@ -18,7 +18,7 @@ The time we greeted you.
 
 ## Example usage
 
-´´´yaml
+```yaml
 name: OpenSCENARIO Checker CI
 
 on:
@@ -39,4 +39,4 @@ jobs:
         CONF_FILE: conf/conf.yml
         BASE_DIR: targetFolder
         CHECKER_JAR_FILE: conf/net.asam.openscenario.checker.example-0.9.0.jar
-´´´
+```
