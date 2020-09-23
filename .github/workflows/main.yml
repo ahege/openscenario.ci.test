@@ -16,5 +16,6 @@ jobs:
       with:
         CONF_FILE: ci/conf.yml
         BASE_DIR: targetFolder
+        CHECKER_JAR_FILE: ci/net.asam.openscenario.checker.example-0.9.0.jar  
         
         
