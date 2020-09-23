@@ -14,4 +14,6 @@ parameterMap:
   testDateTime: 2018-02-24T10:00:00
   testUnsignedShort: 2
   testDouble: 2.0
+
+checkerRuleFactoryClassName: net.asam.openscenario.checker.ExampleScenarioCheckerFactory
   
