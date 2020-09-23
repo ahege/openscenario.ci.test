@@ -8,7 +8,7 @@ This action checks directories with OpenSCEANRIO files.
 ### BASE_DIR:
 **Required**  Base directory to check
 ### CHECKER_JAR_FILE:
-** Not Required** JAR file with the packed checker rules see [here](https://github.com/RA-Consulting-GmbH/openscenario.api.test/wiki/Continuous-Integration-Checker-Features#advanced-example-adding-customized-checker-rules)
+**Not Required** JAR file with the packed checker rules see [here](https://github.com/RA-Consulting-GmbH/openscenario.api.test/wiki/Continuous-Integration-Checker-Features#advanced-example-adding-customized-checker-rules)
 
 ## Outputs
 Example output:
