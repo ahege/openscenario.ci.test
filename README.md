@@ -1,4 +1,4 @@
-#OpenSCENARIO checker action
+# OpenSCENARIO checker action
 
 This action checks directories with OpenSCEANRIO files.
 
