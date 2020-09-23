@@ -1,5 +1,5 @@
 name: "OpenSCENARIO checker action"
-description: "Check all openSCENARIO files that are committed and pushed"
+description: "Check all OpenSCENARIO files that are committed and pushed"
 author: "a.hege@rac.de"
 
 inputs:
